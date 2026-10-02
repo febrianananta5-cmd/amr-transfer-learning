@@ -9,7 +9,8 @@ __pycache__/
 *.pyc
 
 # Model weights
-*.pth
+resnet18_feature.pth
+resnet18_scratch.pth
 
 # Temporary files
 *.tmp
