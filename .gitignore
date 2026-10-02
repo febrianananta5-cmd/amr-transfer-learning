@@ -1,0 +1,21 @@
+# Virtual environment
+amr_env/
+
+# Dataset
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pth
+
+# Temporary files
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
