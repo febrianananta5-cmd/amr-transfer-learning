@@ -13,13 +13,11 @@ Empat kelas objek yang digunakan adalah:
 - Chair
 - Person
 
-Pada penelitian ini dilakukan perbandingan tiga metode:
+Dataset dikumpulkan menggunakan webcam laptop. Project membandingkan tiga metode pelatihan:
 
 1. Feature Extraction
 2. Partial Fine-Tuning
 3. Training from Scratch
-
-Model dilatih menggunakan dataset gambar yang dikumpulkan menggunakan webcam laptop.
 
 ---
 
@@ -28,8 +26,8 @@ Model dilatih menggunakan dataset gambar yang dikumpulkan menggunakan webcam lap
 Tujuan project ini adalah:
 
 - Membangun model klasifikasi objek menggunakan ResNet-18.
-- Menerapkan Transfer Learning menggunakan bobot ImageNet.
-- Membandingkan Feature Extraction, Partial Fine-Tuning, dan Scratch.
+- Menerapkan Transfer Learning menggunakan bobot pretrained ImageNet.
+- Membandingkan Feature Extraction, Partial Fine-Tuning, dan Training from Scratch.
 - Menguji model menggunakan webcam.
 - Mengukur latency dan FPS inferensi model.
 
@@ -37,7 +35,7 @@ Tujuan project ini adalah:
 
 ## Dataset
 
-Dataset terdiri dari empat kelas:
+Dataset terdiri dari empat kelas objek:
 
 | Class | Train | Validation |
 |---|---:|---:|
@@ -47,7 +45,7 @@ Dataset terdiri dari empat kelas:
 | Person | 51 | 5 |
 | **Total** | **207** | **20** |
 
-Dataset disimpan dalam struktur:
+Struktur dataset:
 
 ```text
 dataset/
